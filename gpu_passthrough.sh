@@ -17,7 +17,7 @@ echo "Installing required packages"
 
 dnf install qemu qemu-img nano -y
 
-dnf groupinstall "Virtualization" -y
+dnf group install "virtualization" -y
 
 
 ###Creating backups
